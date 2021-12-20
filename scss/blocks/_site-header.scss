@@ -1,0 +1,111 @@
+.site-header {
+  border-bottom: 1px solid #DBDBDB;
+  padding: 8px 0;
+}
+
+.site-header__box {
+  display: flex;
+  align-items: center;
+}
+
+.site-hider__logo {
+  width: 103px;
+  height: 29px;
+}
+
+.site-header__form {
+  margin-left: auto;
+  margin-right: 119px;
+}
+
+.site-header__input {
+  padding: 0;
+  width: 215px;
+  height: 28px;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  background-image: url("../../img/icon-search.svg");
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: center left 6px;
+
+  &::placeholder {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8E8E8E;
+    padding-left: 26px;
+  }
+
+  &:hover {
+    background-image: none;
+    &::placeholder {
+        padding: 0;
+    }
+  }
+}
+
+.site-header__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.site-header__item:not(:last-child) {
+  margin-right: 23px;
+}
+
+.site-header__link {
+  width: 22px;
+  height: 22px;
+}
+
+.site-header__img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.site-header__dirrect {
+  display: none;
+}
+
+
+@include breakpoint-down(900px) {
+  .site-header__form {
+    margin-right: 70px;
+  }
+}
+
+@include breakpoint-down(700px) {
+  .site-header__form {
+    margin-right: 0;
+  }
+
+  .site-header__input {
+    width: 300px;
+  }
+
+  .site-header__list {
+    display: none;
+  }
+}
+
+@include breakpoint-down(500px) {
+  .site-header__input {
+    width: 240px;
+  }
+}
+
+@include breakpoint-down(400px) {
+  .site-header__form {
+    display: none;
+  }
+
+  .site-header__dirrect {
+    display: block;
+    margin-left: auto;
+  }
+}
