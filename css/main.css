@@ -672,11 +672,11 @@ img {
 }
 
 .javohir-acc {
-  background-image: url("../../img/img-jahongir.png");
+  background-image: url("../../img/img-javohir.jpeg");
 }
 
 .javohir-acc::before {
-  content: "jahongir..";
+  content: "javohir..";
 }
 
 .terry-acc {
