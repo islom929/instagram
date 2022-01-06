@@ -1,0 +1,86 @@
+.post__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.post__item {
+  width: 295px;
+  height: 295px;
+  margin-bottom: 25px;
+  position: relative;
+
+  &:hover .post__box--hover {
+    display: flex;
+  }
+}
+
+.post__img {
+  background-image: url('../../img/post-img/img-yuksalish-0.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.post__media {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: block;
+  top: 8px;
+  right: 9px;
+}
+
+.post__box--hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.27);
+  z-index: 99;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.post__like--hover {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  &::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url('../../img/icon-liked.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 7px;
+  }
+}
+
+.post__comment--hover {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  &::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url('../../img/icon-commented.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 7px;
+  }
+}

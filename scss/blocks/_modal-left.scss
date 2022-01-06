@@ -1,0 +1,26 @@
+.modal-left__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.modal-left__list, .modal-left__item, .modal-left__img-box {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.modal-left__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.modal-left__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

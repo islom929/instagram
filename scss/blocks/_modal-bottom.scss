@@ -1,0 +1,105 @@
+.modal-bottom__btn-box {
+  padding: 6px 16px 8px 16px;
+  display: flex;
+  align-items: center;
+
+  button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: center;
+    padding: 8px;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.modal-bottom__like {
+  background-image: url('../../img/icon-like.svg');
+}
+
+.modal-bottom__comment {
+  background-image: url('../../img/icon-comment.svg');
+}
+
+.modal-bottom__share {
+  background-image: url('../../img/icon-share.svg');
+}
+
+.modal-bottom__bookmark {
+  margin-left: auto;
+  background-image: url('../../img/icon-bookmark.svg');
+}
+
+.modal-bottom__like-box {
+  padding: 0 16px 10px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal-bottom__like-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.modal-bottom__like-img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.modal-bottom__like-text {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  b {
+    font-weight: 600;
+  }
+}
+
+.modal-bottom__like-count {
+  font-weight: 600;
+}
+
+.modal-bottom__like-date {
+  font-size: 10px;
+  color: #777;
+}
+
+.modal-bottom__form {
+  width: 100%;
+  height: 40px;
+  padding: 6px 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  button {
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
+}
+
+.modal-form__emoji {
+  background-image: url('../../img/icon-emoji.svg');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 24px;
+}
+
+.modal-form__input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}

@@ -1,4 +1,4 @@
-.story {
+.history {
   overflow-y: hidden;
   overflow-x: auto;
   padding: 20px 28px;
@@ -8,7 +8,7 @@
   }
 }
 
-.story__list {
+.history__list {
   display: flex;
   align-items: center;
   list-style: none;
@@ -16,7 +16,7 @@
   margin: 0;
 }
 
-.story__btn {
+.history__btn {
   border-radius: 50%;
   width: 56px;
   height: 56px;
@@ -44,29 +44,29 @@
     position: absolute;
     top: -5px;
     left: -5px;
-    background-image: url("../../img/img-history-border.svg");
+    background-image: url("../../img/profile-img/img-history-border.svg");
   }
 }
 
 .islom-acc {
-  background-image: url("../../img/img-islom.png");
+  background-image: url("../../img/profile-img/img-islom.png");
 
   &::before {
     content: "your story";
   }
 }
 
-.story__btn--active::after {
+.history__btn--active::after {
   display: none;
 }
 
 
-.story__item:not(:last-child) {
+.history__item:not(:last-child) {
   margin-right: 24px;
 }
 
 .abror-acc {
-  background-image: url("../../img/img-abror.png");
+  background-image: url("../../img/profile-img/img-abror.png");
 
   &::before {
     content: "abrormuxtor..";
@@ -74,7 +74,7 @@
 }
 
 .muhammadali-acc {
-  background-image: url("../../img/img-muhammad-ali.png");
+  background-image: url("../../img/profile-img/img-muhammad-ali.png");
 
   &::before {
     content: "muhammadali..";
@@ -82,7 +82,7 @@
 }
 
 .temurbek-acc {
-  background-image: url("../../img/img-temurbek.png");
+  background-image: url("../../img/profile-img/img-temurbek.png");
 
   &::before {
     content: "temurbek..";
@@ -90,7 +90,7 @@
 }
 
 .jahongir-acc {
-  background-image: url("../../img/img-jahongir.png");
+  background-image: url("../../img/profile-img/img-jahongir.png");
 
   &::before {
     content: "jahongir..";
@@ -98,7 +98,7 @@
 }
 
 .muhammadjavohir-acc {
-  background-image: url("../../img/img-muhammad-javohir.jpeg");
+  background-image: url("../../img/profile-img/img-muhammad-javohir.jpeg");
 
   &::before {
     content: "muhammad..";
@@ -106,7 +106,7 @@
 }
 
 .javohir-acc {
-  background-image: url("../../img/img-javohir.jpeg");
+  background-image: url("../../img/profile-img/img-javohir.jpeg");
 
   &::before {
     content: "javohir..";
@@ -114,7 +114,7 @@
 }
 
 .terry-acc {
-  background-image: url("../../img/img-terry.png");
+  background-image: url("../../img/profile-img/img-terry.png");
 
   &::before {
     content: "terrylucas";
@@ -122,7 +122,7 @@
 }
 
 .christina-acc {
-  background-image: url("../../img/img-christina.png");
+  background-image: url("../../img/profile-img/img-christina.png");
 
   &::before {
     content: "christinaste..";
@@ -130,7 +130,7 @@
 }
 
 .johns-acc {
-  background-image: url("../../img/img-johns.png");
+  background-image: url("../../img/profile-img/img-johns.png");
 
   &::before {
     content: "johnschmit";
@@ -138,7 +138,7 @@
 }
 
 .edna-acc {
-  background-image: url("../../img/img-edna.png");
+  background-image: url("../../img/profile-img/img-edna.png");
 
   &::before {
     content: "ednamanz";
@@ -146,7 +146,7 @@
 }
 
 .harry-acc {
-  background-image: url("../../img/img-harry.png");
+  background-image: url("../../img/profile-img/img-harry.png");
 
   &::before {
     content: "harryprescot";
@@ -154,7 +154,7 @@
 }
 
 .laura-acc {
-  background-image: url("../../img/img-laura.png");
+  background-image: url("../../img/profile-img/img-laura.png");
 
   &::before {
     content: "lauramatt..";

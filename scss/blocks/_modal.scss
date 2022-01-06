@@ -1,0 +1,30 @@
+.modal {
+  position: absolute;
+  z-index: 111;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.modal__box {
+  display: flex;
+  position: absolute;
+  top: 6%;
+  bottom: 6%;
+  left: 0;
+  right: 0;
+  width: 93%;
+  height: auto;
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal__left, .modal__right {
+  width: 50%;
+  height: auto;
+}
