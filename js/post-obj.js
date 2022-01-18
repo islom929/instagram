@@ -4,6 +4,7 @@ const postObj = [
     img: ['../img/post-img/img-yuksalish-0.png','../img/post-img/img-yuksalish-1.png','../img/post-img/img-yuksalish-2.png','../img/post-img/img-yuksalish-3.png','../img/post-img/img-yuksalish-4.png','../img/post-img/img-yuksalish-5.png','../img/post-img/img-yuksalish-6.png','../img/post-img/img-yuksalish-7.png','../img/post-img/img-yuksalish-8.png'],
     like: false,
     likeCount: 3033,
+    commentCount: 47,
     comment: {
       img: '../img/profile-img/img-muhammad-ali.png',
       name: 'muhammadali_eshonqulov',
@@ -48,6 +49,7 @@ const postObj = [
     img: ['../img/post-img/img-yuksalish-8.png'],
     like: false,
     likeCount: 3690,
+    commentCount: 60,
     comment: {
       img: '../img/profile-img/img-muhammad-ali.png',
       name: 'muhammadali_eshonqulov',
@@ -106,6 +108,7 @@ const postObj = [
     video: ['../videos/video-angren-1.mp4','../videos/video-angren-2.mp4','../videos/video-angren-3.mp4','../videos/video-angren-4.mp4'],
     like: false,
     likeCount: 11605,
+    commentCount: 14,
     comment: {
       img: '../img/profile-img/img-muhammad-ali.png',
       name: 'muhammadali_eshonqulov',

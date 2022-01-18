@@ -376,6 +376,10 @@ img {
   height: auto;
 }
 
+.d-none {
+  display: none !important;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -852,12 +856,19 @@ img {
   display: flex;
 }
 
-.post__img {
-  background-image: url("../../img/post-img/img-yuksalish-0.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.post__img-box {
   width: 100%;
   height: 100%;
+}
+
+.post__img-box video {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.post__img {
+  width: 295px;
+  height: 295px;
 }
 
 .post__media {
@@ -938,7 +949,12 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.349);
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block;
+}
+
+.modal.modal--active {
+  display: block;
 }
 
 .modal__box {
@@ -946,11 +962,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  top: 6%;
-  bottom: 6%;
+  top: 5%;
+  bottom: 5%;
   left: 0;
   right: 0;
-  width: 93%;
+  width: 90%;
   height: auto;
   background-color: #fff;
   border-top-right-radius: 5px;
@@ -962,6 +978,23 @@ img {
 .modal__left, .modal__right {
   width: 50%;
   height: auto;
+}
+
+.modal__close {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  z-index: 1111;
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-image: url("../../img/icon-close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  right: -55px;
+  top: -10px;
 }
 
 .modal-left__list {
@@ -1157,6 +1190,10 @@ img {
   background-size: contain;
 }
 
+.modal-comment__like--active {
+  background-image: url("../../img/icon-like-active.svg");
+}
+
 .modal-comment__text-box {
   margin-bottom: 15px;
 }
@@ -1236,6 +1273,10 @@ img {
 
 .modal-bottom__like {
   background-image: url("../../img/icon-like.svg");
+}
+
+.modal-bottom__like--active {
+  background-image: url("../../img/icon-like-active.svg");
 }
 
 .modal-bottom__comment {

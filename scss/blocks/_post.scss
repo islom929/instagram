@@ -20,12 +20,18 @@
   }
 }
 
-.post__img {
-  background-image: url('../../img/post-img/img-yuksalish-0.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+.post__img-box {
   width: 100%;
   height: 100%;
+
+  video {
+    object-fit: cover;
+  }
+}
+
+.post__img {
+  width: 295px;
+  height: 295px;
 }
 
 .post__media {

@@ -5,17 +5,22 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.349);
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block;
+}
+
+.modal.modal--active {
+  display: block;
 }
 
 .modal__box {
   display: flex;
   position: absolute;
-  top: 6%;
-  bottom: 6%;
+  top: 5%;
+  bottom: 5%;
   left: 0;
   right: 0;
-  width: 93%;
+  width: 90%;
   height: auto;
   background-color: #fff;
   border-top-right-radius: 5px;
@@ -28,3 +33,21 @@
   width: 50%;
   height: auto;
 }
+
+.modal__close {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  z-index: 1111;
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-image: url('../../img/icon-close.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  right: -55px;
+  top: -10px;
+}
+
